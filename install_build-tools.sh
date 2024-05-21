@@ -1,16 +1,16 @@
 #!/bin/sh
 sudo apt update
-sudo apt-get install libprotobuf-dev
-sudo apt-get install libprotoc-dev
-sudo apt-get install protobuf-compiler
-sudo apt-get install pkg-config
-sudo apt-get install autotools-dev
-sudo apt-get install autoconf
-sudo apt-get install automake
-sudo apt-get install libtool
-sudo apt install build-essential
-sudo apt-get install cmake
-sudo apt-get install libc6-dbg gdb valgrind 
+sudo apt-get install -y libprotobuf-dev
+sudo apt-get install -y libprotoc-dev
+sudo apt-get install -y protobuf-compiler
+sudo apt-get install -y pkg-config
+sudo apt-get install -y autotools-dev
+sudo apt-get install -y autoconf
+sudo apt-get install -y automake
+sudo apt-get install -y libtool
+sudo apt install -y build-essential
+sudo apt-get install -y cmake
+sudo apt-get install -y libc6-dbg gdb valgrind 
 
 sudo rm -rf /home/nexus/dev
 mkdir /home/nexus/dev
