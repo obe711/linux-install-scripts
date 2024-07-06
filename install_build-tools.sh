@@ -20,3 +20,4 @@ cd /home/nexus/dev
 git clone git@github.com-protobuf-c:obe711/protobuf-c.git
 cd protobuf-c
 sudo ./autogen.sh && sudo ./configure && sudo make && sudo make install
+sudo ldconfig
