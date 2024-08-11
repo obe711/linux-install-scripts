@@ -4,3 +4,4 @@ curl -o- https://raw.githubusercontent.com/obe711/linux-install-scripts/main/ins
 curl -o- https://raw.githubusercontent.com/obe711/linux-install-scripts/main/install_docker.sh | bash
 curl -o- https://raw.githubusercontent.com/obe711/linux-install-scripts/main/install_mongo.sh | bash
 curl -o- https://raw.githubusercontent.com/obe711/linux-install-scripts/main/install_build-tools.sh | bash
+curl -o- https://raw.githubusercontent.com/obe711/linux-install-scripts/main/install_timescale.sh | bash
