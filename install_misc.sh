@@ -3,6 +3,9 @@
 # avahi
 sudo apt-get install -y avahi-daemon avahi-discover avahi-utils libnss-mdns mdns-scan
 
+# SQLite
+sudo apt-get install -y sqlite3 libsqlite3-dev
+
 # nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
