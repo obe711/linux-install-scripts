@@ -2,6 +2,8 @@
 
 sudo apt update -y && sudo apt install mosquitto mosquitto-clients -y
 
+sudo apt-get install libmosquitto-dev
+
 sudo systemctl status mosquitto
 
 mkdir /home/nexus/mosquitto-config
