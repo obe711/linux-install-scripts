@@ -18,4 +18,4 @@ allow_anonymous true
 
 " >> /home/nexus/mosquitto-config/nexus.conf
 
-mosquitto -c /home/nexus/mosquitto-config/nexus.conf -d
+# mosquitto -c /home/nexus/mosquitto-config/nexus.conf -d
