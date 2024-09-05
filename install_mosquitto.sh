@@ -10,7 +10,7 @@ mkdir /home/nexus/mosquitto-config
 
 echo "
 
-listener 1885
+listener 1886
 
 max_connections -1
 
