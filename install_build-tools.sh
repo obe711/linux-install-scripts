@@ -16,6 +16,16 @@ sudo rm -rf /home/nexus/dev
 mkdir /home/nexus/dev
 cd /home/nexus/dev
 
+# cJSON
+git clone git@github.com:DaveGamble/cJSON.git
+cd cJSON
+mkdir build
+cd build
+cmake ..
+make
+
+# protobuf-c
+cd /home/nexus/dev
 # git clone git@github.com:protobuf-c/protobuf-c.git
 git clone git@github.com-protobuf-c:obe711/protobuf-c.git
 cd protobuf-c
