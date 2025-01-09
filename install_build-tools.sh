@@ -2,6 +2,7 @@
 sudo apt update
 sudo apt-get install -y libprotobuf-dev
 sudo apt-get install -y libprotoc-dev
+sudo apt-get install -y libprotobuf-c-dev
 sudo apt-get install -y protobuf-compiler
 sudo apt-get install -y pkg-config
 sudo apt-get install -y autotools-dev
